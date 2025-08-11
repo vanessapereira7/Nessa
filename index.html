@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapunzel - O Filme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rapunzel - O Filme</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o Filme</a></li>
+                <li><a href="#detalhes">Detalhes</a></li>
+                <li><a href="#galeria">Galeria de Imagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Resumo sobre o Filme -->
+    <section id="sobre">
+        <h2>Sobre o Filme</h2>
+        <p>
+            *Rapunzel* é uma animação da Disney, lançada em 2010, baseada no conto de fadas clássico dos Irmãos Grimm. A história segue uma jovem princesa chamada Rapunzel, que possui longos cabelos mágicos com o poder de curar e reverter o envelhecimento. Rapunzel é mantida em uma torre isolada por sua "mãe" adotiva, Madre Gothel, que a mantém prisioneira para usar seu poder.
+        </p>
+        <p>
+            Quando um fugitivo chamado Flynn Rider entra na torre, Rapunzel decide fugir e ver o mundo exterior pela primeira vez. Juntos, eles embarcam em uma aventura cheia de emoção, perigo, e descobertas. O filme mistura romance, humor, e ação, com personagens encantadores e uma trilha sonora marcante.
+        </p>
+    </section>
+
+    <!-- Detalhes do Filme -->
+    <section id="detalhes">
+        <h2>Detalhes do Filme</h2>
+        <ul>
+            <li><strong>Título Original:</strong> Tangled</li>
+            <li><strong>Ano de Lançamento:</strong> 2010</li>
+            <li><strong>Diretores:</strong> Nathan Greno, Byron Howard</li>
+            <li><strong>Produção:</strong> Walt Disney Animation Studios</li>
+            <li><strong>Gênero:</strong> Animação, Aventura, Comédia, Fantasia</li>
+            <li><strong>Principais Personagens:</strong> Rapunzel, Flynn Rider, Madre Gothel, Pascal</li>
+            <li><strong>Músicas:</strong> "I See the Light", "When Will My Life Begin?", "Mother Knows Best"</li>
+        </ul>
+    </section>
+
+    <!-- Galeria de Imagens -->
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="imagens">
+            <img src="rapunzel_tower.jpg" alt="Rapunzel na Torre" />
+            <img src="rapunzel_flynn.jpg" alt="Rapunzel e Flynn Rider" />
+            <img src="rapunzel_lights.jpg" alt="Cena das Lanternas" />
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Página Oficial de Rapunzel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2a5d8b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #2a5d8b;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 30%;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #2a5d8b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
